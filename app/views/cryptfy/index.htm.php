@@ -1,7 +1,8 @@
 <?php echo $form->create('/cryptfy/index'); ?>
 <?php echo $form->input('string', array(
 	'label' => false,
-	'placeholder' => 'Type your text here'
+	'placeholder' => 'Type your text here',
+	'value' => $string
 )); ?>
 <?php echo $form->input('submit', array(
 	'type' => 'submit',
