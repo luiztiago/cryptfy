@@ -1,0 +1,2 @@
+<?php
+Mapper::root("cryptfy");
