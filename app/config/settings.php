@@ -58,9 +58,9 @@ Config::write('app.currency_format_thousands_sep', '.');
  * do FACEBOOK
  * 
  */
-Config::write('face.title', 'Nome do site');
+Config::write('face.title', 'Cryptfy');
 Config::write('face.type', 'article');
-Config::write('face.description', 'Alguma descrição do site');
-Config::write('face.url', 'http://www.meusite.com.br/');
+Config::write('face.description', 'Cryptfy is application to help developers making encrypted texts easily');
+Config::write('face.url', 'http://www.cryptfy.com/');
 Config::write('face.image', 'http://www.temqueporaurlcompleta.com.br/images/facebook.jpg');
-Config::write('face.site_name', 'Nome do site');
+Config::write('face.site_name', 'Cryptfy');

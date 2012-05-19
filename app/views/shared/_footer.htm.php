@@ -1,24 +1,11 @@
 
-    </div> <!-- /container -->
-	<footer class="row">
-		<div class="span12 center">
+			<footer>
+				<p>Cryptfy is application to help developers making encrypted texts easily</p>
+				<p id="github"><a href="http://github.com/luiztiago/cryptfy">github.com/luiztiago/cryptfy</a></p>
+			</footer>
 
-		</div>
-	</footer>
+		</div> <!-- /container -->
 
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="<?php Mapper::url("/scripts/libs/jquery.min.js"); ?>"><\/script>')</script>
-	<?php echo $html->script(array(
-		'libs/bootstrap.min',
-		'libs/jcheck-0.7.1.min.js',
-		'libs/jcheck.pt-br.js',
-		'modules/prompt.modal.js'
-	)); ?>
-	<?php echo $this->scriptsForLayout; ?>
-	<?php echo $this->element('shared/alert_modal'); ?>
-	<?php echo $this->element('shared/analytics'); ?>
-  </body>
+		<?php echo $this->element('shared/analytics'); ?>
+	</body>
 </html>
