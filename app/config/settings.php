@@ -8,7 +8,7 @@ Config::write("environment", 'development'); # development, production
 
 Config::write('face.title', 'Cryptfy');
 Config::write('face.type', 'article');
-Config::write('face.description', 'Cryptfy is application to help developers making encrypted texts easily');
+Config::write('face.description', 'Cryptfy is application to help developers making encrypted texts easily. Currently works with: MD5, SHA1 and BASE64');
 Config::write('face.url', 'http://www.cryptfy.com/');
 Config::write('face.image', 'http://www.cryptfy.com/images/facebook.png');
 Config::write('face.site_name', 'Cryptfy');
