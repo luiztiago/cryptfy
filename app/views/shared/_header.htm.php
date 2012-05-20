@@ -3,7 +3,7 @@
 <html class="no-js" lang="en">
 <head>
 	<meta charset="utf-8">
-	<title><?php echo $this->pageTitle; ?></title>
+	<title>Cryptfy</title>
 	<meta name="viewport" content="width=device-width">
 	<meta name="description" content="" />
 	<meta name="author" content="" />
