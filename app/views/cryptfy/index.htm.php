@@ -19,4 +19,5 @@
 		<?php endforeach; ?>
 		</ul>
 	<?php endif; ?>
+	<?php echo $form->close(null); ?>
 </div>
