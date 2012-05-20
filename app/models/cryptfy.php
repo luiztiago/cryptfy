@@ -9,8 +9,6 @@ class Cryptfy extends AppModel {
         switch($hash) {
             case "md5":
                 return md5($text);
-            case "sha256":
-                return bin2hex(mhash(MHASH_SHA256, $text));
             case "base64":
                 return base64_encode($text);
             case "sha1":
