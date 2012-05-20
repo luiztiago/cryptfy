@@ -2,7 +2,7 @@
 class Cryptfy extends AppModel {
 
     public $table           = false;
-    public $availableCrypts = array('md5', 'sha1', 'sha256', 'base64');
+    public $availableCrypts = array('md5', 'sha1', 'base64');
 
 
     public function hash($text, $hash = null) {
