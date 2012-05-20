@@ -14,16 +14,10 @@ class CryptfyController extends AppController {
 					'results' 	=> false
 				);
 			}
-
-			$this->output($results);
 		}
-	}
 
-
-	public function output($results) {
 		switch ($this->param('extension')) {
 			case 'json':
-				$this->autoRender = false;
 				$this->JSONOutput(array('results' => $results));
 				break;
 			default:
