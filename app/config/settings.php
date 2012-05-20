@@ -4,7 +4,7 @@ Config::write('app.hash', 'md5');
 Config::write('analytics', false);
 
 Config::write("defaultExtension", "htm");
-Config::write("environment", 'production'); # development, production
+Config::write("environment", 'development'); # development, production
 
 Config::write('face.title', 'Cryptfy');
 Config::write('face.type', 'article');
