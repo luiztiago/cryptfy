@@ -15,15 +15,17 @@
 				'value' => 'Generate'
 			)); ?>
 
+
+			<ul id="results">
 			<?php if ($results): ?>
 				
-				<ul>
 				<?php foreach ($results as $crypt => $code): ?>
 					<li><strong><?php echo strtoupper($crypt) ?></strong> <?php echo $code; ?></li>
 				<?php endforeach; ?>
-				</ul>
 
 			<?php endif; ?>
+			
+			</ul>
 
 			<?php echo $form->close(null); ?>
 
